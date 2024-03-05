@@ -1,2 +1,2 @@
 # POLYGLOT
-Programming languages practice
+Programming languages 101
