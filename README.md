@@ -1,2 +1,2 @@
 # POLYGLOT
-Programming languages 101
+Programming languages 101.
