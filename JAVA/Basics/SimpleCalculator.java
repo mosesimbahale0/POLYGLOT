@@ -27,7 +27,7 @@ public class SimpleCalculator {
         result = num1 * num2;
         break;
       case '/':
-        if (num2 === 0) {
+        if (num2 == 0) {
           System.out.println("Error: Division by zero!");
           return; // Exit program if division by zero
         }
