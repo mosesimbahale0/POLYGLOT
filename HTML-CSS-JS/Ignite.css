@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;  /* Specify preferred font family */
+    margin: 20px;
+    padding: 0;  /* Add some padding for better layout */
+  }
+  
+  h1, h2, h3 {
+    margin: 10px 0;
+    font-weight: bold;  /* Make headings bolder */
+  }
+  
+  a {
+    color: #007bff;  /* Blue color for links */
+    text-decoration: none;  /* Remove underline from links by default */
+  }
+  
+  a:hover {
+    text-decoration: underline;  /* Underline links on hover */
+    color: #0056b3;  /* Change link color on hover */
+  }
+  
+  .nospacing li {
+    display: inline-block;  /* Remove spacing between list items */
+    margin-right: 10px;  /* Add some margin for better readability */
+  }
+  
+  img {
+    max-width: 100%;  /* Scale image to fit container */
+    height: auto;  /* Maintain image aspect ratio */
+  }
+  
+  p {
+    line-height: 1.5;  /* Increase line spacing for better readability */
+  }
+  
+  form {
+    display: flex;  /* Arrange form elements horizontally */
+    flex-direction: column;  /* Stack form elements vertically */
+    gap: 5px;  /* Add some space between form elements */
+  }
+  
+  label {
+    font-weight: bold;  /* Make labels bold for better visibility */
+  }
+  
+  input[type="text"], textarea {
+    border: 1px solid #ccc;  /* Add a border to input fields */
+    padding: 5px;  /* Add some padding for better user experience */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;  /* Blue background for submit button */
+    color: white;  /* White text color */
+    border: none;  /* Remove border from button */
+    padding: 10px 15px;  /* Add padding for better appearance */
+    border-radius: 5px;  /* Add rounded corners to button */
+    cursor: pointer;  /* Change cursor style to indicate clickability */
+  }
+  
+  section {
+    border: 1px solid #ddd;  /* Add a border to sections */
+    padding: 10px;  /* Add some padding for content */
+    margin-bottom: 20px;  /* Add space between sections */
+  }
+  
+  aside {
+    background-color: #f5f5f5;  /* Light gray background for aside elements */
+    padding: 10px;  /* Add some padding for content */
+  }
+  
+  footer {
+    text-align: center;  /* Center footer content */
+    margin-top: 20px;  /* Add space between content and footer */
+    padding: 10px;  /* Add some padding for footer content */
+    border-top: 1px solid #ddd;  /* Add a border to separate footer */
+  }
+  
